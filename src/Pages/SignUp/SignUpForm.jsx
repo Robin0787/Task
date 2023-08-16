@@ -231,7 +231,7 @@ const SignUpForm = () => {
                                         autoComplete="off"
                                         value={whatsapp}
                                         onChange={(e) => { setWhatsapp(e.target.value) }}
-                                        className="w-[83%] px-2 py-2 rounded-md border outline-0 text-gray-100 focus:text-gray-600  border-gray-300 bg-gradient-to-l from-blue-500 to-blue-600  focus:from-gray-100 focus:to-gray-100 duration-300" />
+                                        className="w-[80%] px-2 py-2 rounded-md border outline-0 text-gray-100 focus:text-gray-600  border-gray-300 bg-gradient-to-l from-blue-500 to-blue-600  focus:from-gray-100 focus:to-gray-100 duration-300" />
 
                                 </div>
                             </div>
@@ -248,7 +248,7 @@ const SignUpForm = () => {
                                         autoComplete="off"
                                         value={phone}
                                         onChange={(e) => { setPhone(e.target.value) }}
-                                        className="w-[83%] px-2 py-2 rounded-md border outline-0 text-gray-100 focus:text-gray-600  border-gray-300 bg-gradient-to-l from-blue-500 to-blue-600  focus:from-gray-100 focus:to-gray-100 duration-300" />
+                                        className="w-[80%] px-2 py-2 rounded-md border outline-0 text-gray-100 focus:text-gray-600  border-gray-300 bg-gradient-to-l from-blue-500 to-blue-600  focus:from-gray-100 focus:to-gray-100 duration-300" />
 
                                 </div>
                             </div>
