@@ -1,7 +1,6 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { motion } from "framer-motion";
-import { useState } from 'react';
 import SocialLogin from '../../Components/SocialLogin/SocialLogin';
 import logo from "../../assets/logo.png";
 import SignUpForm from './SignUpForm';
@@ -10,7 +9,6 @@ AOS.init();
 
 
 const SignUp = () => {
-    const [login, setLogin] = useState(false);
 
     return (
         <section className="flex justify-center items-center min-h-screen md:h-screen w-full">
@@ -24,20 +22,6 @@ const SignUp = () => {
                         <div className='flex-grow-1'>
                             <SocialLogin />
                         </div>
-                        {/* <div className=' text-gray-200 text-center'>
-                            {
-                                login ? 
-                                (
-                                    <p>Don't have an account? <span className='text-blue-300 cursor-pointer' 
-                                    onClick={() => {setLogin(!login)}}>Sign Up</span></p>
-                                )
-                                : 
-                                (
-                                    <p>Have an account? <span className='text-blue-300 cursor-pointer' 
-                                    onClick={() => {setLogin(!login)}}>Login</span></p>
-                                )
-                            }
-                            </div> */}
                     </div>
                     <div className="md:h-full md:w-1/2 px-0 sm:px-20 md:px-0 lg:px-4">
                         <motion.div transition={{

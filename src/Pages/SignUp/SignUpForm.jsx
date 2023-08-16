@@ -131,7 +131,7 @@ const SignUpForm = () => {
                     personalInfo && (
                         <section className="space-y-5">
                             {/* First Name */}
-                            <div className="space-y-2 relative">
+                            <div className="space-y-1 relative">
                                 <label htmlFor="name">First Name</label>
                                 <br />
                                 <input type="text" name="firstName"
@@ -142,7 +142,7 @@ const SignUpForm = () => {
 
                             </div>
                             {/* Last Name */}
-                            <div className="space-y-2 relative">
+                            <div className="space-y-1 relative">
                                 <label htmlFor="name">Last Name</label>
                                 <br />
                                 <input type="text" name="lastName"
@@ -152,7 +152,7 @@ const SignUpForm = () => {
                                     className="w-full px-2 py-2 rounded-md border outline-0 text-gray-100 focus:text-gray-600  border-gray-300 bg-gradient-to-l from-blue-500 to-blue-600  focus:from-gray-100 focus:to-gray-100 duration-300" />
 
                             </div>
-                            <div className="relative space-y-2">
+                            <div className="relative space-y-1">
                                 <label htmlFor="language">Language</label>
                                 <div className={`flex justify-between items-center px-2 py-2 rounded-md ${openLanguage && 'rounded-b-none'}  border outline-0 text-gray-100 cursor-pointer relative`}
                                     onClick={() => { setOpenLanguage(!openLanguage) }}>
@@ -192,7 +192,7 @@ const SignUpForm = () => {
 
                         <section className="space-y-5">
                             {/* Country Name */}
-                            <div className="relative space-y-2">
+                            <div className="relative space-y-1">
                                 <label htmlFor="language">Country</label>
                                 <div className={`flex justify-between items-center px-2 py-2 rounded-md ${openCountry && 'rounded-b-none'}  border outline-0 text-gray-100 cursor-pointer relative`}
                                     onClick={() => { setOpenCountry(!openCountry) }}>
@@ -219,7 +219,7 @@ const SignUpForm = () => {
                                 }
                             </div>
                             {/* Whatsapp Number */}
-                            <div className="relative space-y-2">
+                            <div className="relative space-y-1">
                                 <label htmlFor="whatsapp">Whatsapp Number</label>
                                 <div className="flex items-center justify-between ">
                                     <input type="text" name="whatsapp"
@@ -231,12 +231,12 @@ const SignUpForm = () => {
                                         autoComplete="off"
                                         value={whatsapp}
                                         onChange={(e) => { setWhatsapp(e.target.value) }}
-                                        className="w-[80%] px-2 py-2 rounded-md border outline-0 text-gray-100 focus:text-gray-600  border-gray-300 bg-gradient-to-l from-blue-500 to-blue-600  focus:from-gray-100 focus:to-gray-100 duration-300" />
+                                        className="w-[83%] px-2 py-2 rounded-md border outline-0 text-gray-100 focus:text-gray-600  border-gray-300 bg-gradient-to-l from-blue-500 to-blue-600  focus:from-gray-100 focus:to-gray-100 duration-300" />
 
                                 </div>
                             </div>
                             {/* phone Number */}
-                            <div className="relative space-y-2">
+                            <div className="relative space-y-1">
                                 <label htmlFor="Phone">Phone Number</label>
                                 <div className="flex items-center justify-between ">
                                     <input type="text" name="Phone"
@@ -248,7 +248,7 @@ const SignUpForm = () => {
                                         autoComplete="off"
                                         value={phone}
                                         onChange={(e) => { setPhone(e.target.value) }}
-                                        className="w-[80%] px-2 py-2 rounded-md border outline-0 text-gray-100 focus:text-gray-600  border-gray-300 bg-gradient-to-l from-blue-500 to-blue-600  focus:from-gray-100 focus:to-gray-100 duration-300" />
+                                        className="w-[83%] px-2 py-2 rounded-md border outline-0 text-gray-100 focus:text-gray-600  border-gray-300 bg-gradient-to-l from-blue-500 to-blue-600  focus:from-gray-100 focus:to-gray-100 duration-300" />
 
                                 </div>
                             </div>
@@ -272,7 +272,7 @@ const SignUpForm = () => {
                     accountInfo && (
                         <section className="space-y-5">
                             {/* Email*/}
-                            <div className="space-y-2 relative">
+                            <div className="space-y-1 relative">
                                 <label htmlFor="name">Your Email</label>
                                 <br />
                                 <input type="email" name="email"
@@ -282,7 +282,7 @@ const SignUpForm = () => {
                                     className="w-full px-2 py-2 rounded-md border outline-0 text-gray-100 focus:text-gray-600  border-gray-300 bg-gradient-to-l from-blue-500 to-blue-600  focus:from-gray-100 focus:to-gray-100 duration-300" />
                             </div>
                             {/* Password*/}
-                                <div className="space-y-2 relative">
+                                <div className="space-y-1 relative">
                                     <label htmlFor="password">Password</label>
                                     <br />
                                     <div className="relative">
